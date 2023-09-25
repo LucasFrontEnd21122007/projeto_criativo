@@ -1,0 +1,36 @@
+{
+  "name": "meu-projeto-frontend",
+  "version": "1.0.0",
+  "description": "Um projeto frontend incrível",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasFrontEnd21122007/meu-projeto-frontend.git"
+  },
+  "keywords": [
+    "html",
+    "CSS",
+    "javascript",
+    "webpack",
+    "react"
+  ],
+  "author": "Lucas Martinez Scordamaglia",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-dev-server": "^4.0.0",
+    "babel-loader": "^8.0.0",
+    "jest": "^27.0.0"
+  }
+}
